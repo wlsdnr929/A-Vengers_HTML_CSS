@@ -1,3 +1,4 @@
-# A_plus_Vengers_HTML_CSS
+# A+Vengers_HTML_CSS
 
-<img src="https://img.shields.io/badge/HTML-red?style=flat&logo=로고이름&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML&logoColor=white"/></a>
+
