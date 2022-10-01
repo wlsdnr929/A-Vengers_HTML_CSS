@@ -1,0 +1,28 @@
+
+/* class를 이용해 한 번에도 가능 */
+/* div.divclass{
+    background-color: beige;
+} */
+
+/* 또는 */
+
+div#first{
+    background-color:lime;
+    display: inline-block;  /* default 는 block 방식 */
+    width: 500px;           /* block 방식 : 끝까지 보여줌 */
+}                           /* inline-block 방식 : 딱 자기의 크기만 */
+div#second{
+    background-color: cadetblue;
+    display: inline-block;
+    width: 600px
+}
+div#third{
+    background-color: yellow;
+    display: inline-block;
+    width: 700px
+}
+
+
+
+
+

@@ -1,0 +1,58 @@
+
+<!-- html : 웹 페이지의 '구조' & '내용' -->
+<!-- css : 웹 페이지의 '디자인' -->
+
+<!--  이 두 가지는(html,css)는 정적 -->
+
+<!-- javascript : 프로그래밍 -> 동적인 웹페이지 구현 가능 -->
+
+<html>
+    <head>
+        <!-- style 은 head 부분에 넣으면 됨 -->
+
+        <!-- style 부분을 통째로 잘라내어 .css 파일에 따로 만듦-->
+        <!-- 따로 만들경우에는 link 사용 : href(hypertext reference)-->
+        <link rel="stylesheet" href="./main.css">
+
+        <!-- '#' : selector (id 값) -->
+        <!-- '.' : (class 값) -->
+
+        <style>
+            /* div#first{
+                background-color:lime;
+            }  
+            div#second{
+                background-color: cadetblue;
+            }
+            div#third{
+                background-color: yellow;
+            } */
+
+            /* class를 이용해 한 번에도 가능 */
+            /* div.divclass{
+                background-color: beige;
+            } */
+        </style>
+
+    </head>
+
+    <body>
+        
+        <!-- div : division(구역)-->
+        <!-- class :  같은 것들끼리 묶은 것-->
+        <!-- id : 유일한 것-->
+
+        <div class="divclass" id="first">
+            <h1> H1 첫 번째입니다.</h1>
+        </div>
+        
+        <div class="divclass" id="second" >
+            <h1> H1 두 번째입니다.</h1>
+        </div>
+
+        <div class="divclass" id="third">  
+            <h1> H1 세 번째입니다.</h1>
+        </div>
+        
+    </body>
+</html>
